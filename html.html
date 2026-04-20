@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/brands.min.css" integrity="sha512-WxpJXPm/Is1a/dzEdhdaoajpgizHQimaLGL/QqUIAjIihlQqlPQb1V9vkGs9+VzXD7rgI6O+UsSKl4u5K36Ydw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <header>Signup</header>
+        <form action="./m.txt">
+            <div class="field email-field">
+                <div class="input-field ">
+                    <input type="email" placeholder="Enter Your email" class="email" required>
+                </div>
+                <span class="error email-error">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <p class="error-text">Please enter a valid email</p>
+                </span>
+
+            </div>
+            <div class="field create-password">
+                <div class="input-field ">
+                    <input type="password" placeholder="Create password" class="password" required>
+                    <i class="fa-sharp fa-solid fa-eye-slash show-hide" ></i>
+                    <!-- <i class="fa-regular fa-eye"></i> -->
+                </div>
+                <span class="error password-error">
+                    <i class="fa-solid fa-circle-exclamation"></i>
+                    <p class="error-text">Please enter atleast 8 charatcer with number, symbol, small and 
+                        capital letter</p>
+                </span>
+
+            </div>
+            <div class="field confirm-password">
+                <div class="input-field ">
+                    <input type="password" placeholder="Confirm password" class="cpassword" required>
+                    <i class="fa-sharp fa-solid fa-eye-slash show-hide error-icon" ></i>
+                </div>
+                <span class="error cpassword-error">
+                    <i class="fa-solid fa-circle-exclamation error-icon"></i>
+                    <p class="error-text">Password don't match</p>
+                </span>
+            </div>
+            <div class="input-field button">
+                <input type="submit" value="Sumbit Now">
+            </div>
+        </form>
+    </div>
+    <script src="./js.js"></script>
+</body>
+</html>
